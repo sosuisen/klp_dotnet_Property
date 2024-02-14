@@ -9,7 +9,7 @@ namespace Syntax
             var todo2 = new ToDo(2, "Test code", new DateTime(2022, 3, 8), false);
 
             // Get a property
-            Console.WriteLine(todo1.Id);
+            Console.WriteLine(todo1.Name);
         }
     }
 }
