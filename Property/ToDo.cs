@@ -1,4 +1,4 @@
-namespace Property
+namespace Syntax
 {
     internal class ToDo
     {
