@@ -19,7 +19,7 @@ namespace Property
 
         public void DisplayOrder()
         {
-            Console.WriteLine($"Order ID: {OrderId}, Customer: {CustomerName}, Date: {OrderDate.ToShortDateString()}");
+            Console.WriteLine($"Order ID: {_orderId}, Customer: {_customerName}, Date: {_orderDate.ToShortDateString()}");
         }
     }
 }
