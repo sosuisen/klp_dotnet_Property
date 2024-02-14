@@ -2,19 +2,15 @@ namespace Property
 {
     internal class Order
     {
-        private int _orderId;
-        private string _customerName;
-        private DateTime _orderDate;
-
-        public int OrderId { get { return _orderId; } set { _orderId = value; } }
-        public string CustomerName { get { return _customerName; } set { _customerName = value; } }
-        public DateTime OrderDate { get { return _orderDate; } set { _orderDate = value; } }
+        public int OrderId { get; set; }
+        public string CustomerName { get; set; }
+        public DateTime OrderDate { get; set; }
 
         public Order(int orderId, string customerName, DateTime dateTime)
         {
-            _orderId = orderId;
-            _customerName = customerName;
-            _orderDate = dateTime;
+            OrderId = orderId;
+            CustomerName = customerName;
+            OrderDate = dateTime;
         }
 
         public void DisplayOrder()
